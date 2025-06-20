@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1e1e;
+    font-family: "Roboto";
+}
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; /* This pushes .left to left, .right to right */
+    align-items: center; /* Optional: aligns vertically */
+    padding: 0 20px; /* Optional: spacing from sides */
+}
+.left{
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 26px;
+}
+.right {
+    font-size: 20px;
+    display: flex;
+    gap: 55px; /* Optional: spacing between buttons/links inside */
+    align-items: center; /* align vertically */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navlinks{
+    text-decoration: none;
+    color: white;
+}
+.navlinks:hover{
+    color: #FFB829;
+    transition-timing-function: ease-in;
+}
+
+.paytone {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbtn{
+    color: #1e1e1e;
+    background-color: #FFB829;
+    font-weight: bold;
+    padding: 10px;
+}
