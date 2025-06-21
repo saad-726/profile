@@ -1,52 +1,117 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: #1e1e1e;
-    font-family: "Roboto";
-}
-.navbar {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between; /* This pushes .left to left, .right to right */
-    align-items: center; /* Optional: aligns vertically */
-    padding: 0 20px; /* Optional: spacing from sides */
-}
-.left{
-    margin-left: 20px;
     color: white;
-    font-weight: bolder;
-    font-size: 26px;
-}
-.right {
-    font-size: 20px;
-    display: flex;
-    gap: 55px; /* Optional: spacing between buttons/links inside */
-    align-items: center; /* align vertically */
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-.navlinks{
-    text-decoration: none;
-    color: white;
-}
-.navlinks:hover{
-    color: #FFB829;
-    transition-timing-function: ease-in;
+    text-align: center;
 }
 
-.paytone {
-  font-family: "Paytone One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
 }
-.navbtn{
-    color: #1e1e1e;
-    background-color: #FFB829;
+
+.logo {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.nav-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.nav-links a:hover{
+    color: #FF8829;
+}
+
+.mail-btn {
+    font-family: 'Paytone One', sans-serif;
+    background-color: #FF8829;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 8px;
     font-weight: bold;
+}
+.mail-btn:hover{
+    background-color: white;
+}
+
+.hero {
+    margin-top: 60px;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #FF8829;
     padding: 10px;
+}
+
+.hero h1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #bbbbbb;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FF8829;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: black;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 15px;
+    background-color: #2e2e2e;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.contact-item img {
+    width: 32px;
+    height: 32px;
+}
+
+.contact-item p {
+    font-weight: bold;
+}
+
+.contact-item span {
+    color: #FF8829;
+    font-weight: 500;
+}
+.size-icon{
+    font-size: 30px;
 }
