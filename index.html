@@ -1,158 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syed Saad Ahmed | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Portfolio of Syed Saad Ahmed - AI Engineer & Web Developer">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <header class="navbar">
-        <div class="logo">Portfolio</div>
-        <nav class="nav-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#certifications">Certifications</a>
-            <a href="mailto::syedsaadahmed726@gmail.com" class="mail-btn">Mail Me</a>
-        </nav>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Syed Saad Ahmed.</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="mailto:syedsaadahmed726@gmail.com" class="btn btn-sm btn-primary">Get in touch</a>
+            <div class="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="interactive-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-badge">
+                <span class="badge-new">New</span>
+                <span class="badge-text">Available for freelance work</span>
+            </div>
+            <h1 class="hero-title">
+                AI Engineer & <br>
+                <span class="gradient-text">Web Designer.</span>
+            </h1>
+            <p class="hero-subtitle">
+                I design purposeful tech that looks good and works great. <br>
+                Combining intelligent systems with modern design.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View my work</a>
+                <a href="Asset/cv.pdf" target="_blank" class="btn btn-secondary">Download
+                    CV</a>
+            </div>
+        </div>
     </header>
 
-    <main class="hero">
-        <img src="pfp.png" alt="Profile Picture" class="avatar"> 
-        <h1>Syed Saad Ahmed</h1>
-        <p class="subtitle">AI Engineer | Web Developer & Designer</p>
-        <a href="mailto::syedsaadahmed726@gmail.com" class="contact-btn">Contact me!</a>
-    </main>
-
-    <section class="contacts">
-        <div class="contact-item">
-            <i class="fa-brands fa-telegram size-icon"></i>
-            <div>
-                <p>Telegram</p>
-                <span>@syedsaadahmed</span>
-            </div>
-        </div>
-        <div class="contact-item">
-            <i class="fa-solid fa-envelope size-icon"></i>
-            <div>
-                <p>Mail</p>
-                <span>syedsaadahmed726@gmail.com</span>
-            </div>
-        </div>
-        <div class="contact-item">
-            <i class="fa-brands fa-github size-icon"></i>
-            <div>
-                <p>GitHub</p>
-                <span>@saad-726</span>
+    <!-- Skills Marquee (Replaces Community Section) -->
+    <section class="marquee-section">
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <!-- Duplicate items for seamless loop -->
+                <div class="marquee-item"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="marquee-item"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="marquee-item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                <div class="marquee-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="marquee-item"><i class="fa-brands fa-react"></i> React</div>
+                <div class="marquee-item"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                <div class="marquee-item"><i class="fa-solid fa-pen-nib"></i> Graphic Design</div>
+                <div class="marquee-item"><i class="fa-brands fa-figma"></i> Figma</div>
+                <!-- Duplicate set -->
+                <div class="marquee-item"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="marquee-item"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="marquee-item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                <div class="marquee-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="marquee-item"><i class="fa-brands fa-react"></i> React</div>
+                <div class="marquee-item"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                <div class="marquee-item"><i class="fa-solid fa-pen-nib"></i> Graphic Design</div>
+                <div class="marquee-item"><i class="fa-brands fa-figma"></i> Figma</div>
             </div>
         </div>
     </section>
+
+    <!-- About Section -->
     <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-        I’m Syed Saad Ahmed, a third-year Artificial Intelligence student at SZABIST Islamabad with a strong interest in combining design with intelligent systems. 
-        Beyond my academic foundation, I bring hands-on experience in graphic and web design, having worked with non-profits and tech societies to create digital content, event branding, and interactive platforms.
-        I believe in designing purposeful tech that looks good and works great.
-    </p>
-</section>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">A glimpse into my world, skills, and work philosophy.</p>
+            </div>
 
-<section id="projects" class="section">
-  <h2>Projects</h2>
-  <div class="card-grid">
+            <div class="about-grid">
+                <!-- 1. Bio Card (Large) -->
+                <div class="about-card about-intro">
+                    <h3>Who am I?</h3>
+                    <p>
+                        I'm Syed Saad Ahmed, an AI Engineer and Web Designer who bridges the gap between complex
+                        algorithms
+                        and beautiful user experiences. I don't just write code; I craft solutions that feel precise,
+                        human, and modern.
+                    </p>
+                    <div class="tags">
+                        <span><i class="fa-solid fa-code"></i> Developer</span>
+                        <span><i class="fa-solid fa-robot"></i> AI Enthusiast</span>
+                        <span><i class="fa-solid fa-palette"></i> Designer</span>
+                    </div>
+                </div>
 
-    <div class="project-card">
-      <img src="portfolio.png" alt="Portfolio Screenshot" class="project-img">
-      <div class="project-content">
-        <h3>Portfolio Website</h3>
-        <p>Designed and developed my personal portfolio using HTML and CSS with responsive design and modern UI animations.</p>
-        <a href="https://saad-726.github.io/profile/" class="project-link" target="_blank">View Site</a>
-      </div>
-    </div>
+                <!-- 2. Interactive Graph Card -->
+                <div class="about-card about-graph">
+                    <h4>Continuous Growth</h4>
+                    <div class="graph-container">
+                        <!-- Bars will line up here -->
+                        <div class="bar bar-1"></div>
+                        <div class="bar bar-2"></div>
+                        <div class="bar bar-3"></div>
+                        <div class="bar bar-4"></div>
+                        <div class="bar bar-5"></div>
+                    </div>
+                    <p class="small-text">Always leveling up my skills</p>
+                </div>
 
-    <div class="project-card">
-      <img src="collage.png" alt="ZABTechFusion Poster" class="project-img">
-      <div class="project-content">
-        <h3>Graphic Design – Branding</h3>
-        <p>Led the visual branding for MLSA, including logos, certificates, and social media design aligned with event themes.</p>
-      </div>
-    </div>
+                <!-- 3. Interactive Toggle/Shape Card -->
+                <div class="about-card about-interactive">
+                    <div class="interactive-shape"></div>
+                    <div class="interactive-instruction">
+                        <i class="fa-solid fa-shapes"></i> Adaptive & Agile
+                    </div>
+                </div>
 
-    <div class="project-card">
-      <img src="ITSA.png" alt="VEXA Dashboard" class="project-img">
-      <div class="project-content">
-        <h3>ITSA – Website for Taxation Firm</h3>
-        <p>Designed website for a taxation firm named ITSA, completed the project and the client is satisfied.</p>
-        <a href="https://www.itsa.pk" class="project-link" target="_blank">View Site</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <img src="authenwrite.png" alt="AuthenWrite Preview" class="project-img">
-      <div class="project-content">
-        <h3>AuthenWrite – Human-Like AI Writer</h3>
-        <p>An AI writing tool that mimics human tone. Users can train it on their writing style or use predefined tones to avoid AI detectors.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-<section id="experience" class="section">
-    <h2>Experience</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <h3>Head of Design Team — Digital Empowerment Network</h3>
-            <p>Volunteering remotely since 2023, progressed from junior designer to lead the full design team. Created visual content for campaigns across platforms.</p>
+                <!-- 4. Quick Stats Card -->
+                <div class="about-card about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="timeline-item">
-            <h3>Graphic Designer — Microsoft Learn Student Ambassadors</h3>
-            <p>Designed digital assets, event branding, and social media content for student-led tech events such as ZABCon and ZABTechFusion (2023–2024).</p>
+    </section>
+
+    <!-- Projects Section (Replaces Features) -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Selected Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work in AI and Web Development.</p>
+            </div>
+
+            <div class="grid refresh-grid">
+                <!-- Project 1 -->
+                <div class="card project-card">
+                    <div class="card-icon blue-icon">
+                        <i class="fa-solid fa-user-astronaut"></i>
+                    </div>
+                    <h3 class="card-title">Portfolio Website</h3>
+                    <p class="card-description">
+                        Designed and developed my personal portfolio using HTML and CSS with responsive design and
+                        modern UI animations.
+                    </p>
+                    <a href="https://saad-726.github.io/profile/" target="_blank" class="card-link">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card project-card">
+                    <div class="card-icon purple-icon">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3 class="card-title">ITSA - Taxation Firm</h3>
+                    <p class="card-description">
+                        Designed a professional website for a taxation firm. Delivered a complete, client-approved
+                        solution.
+                    </p>
+                    <a href="https://www.itsa.pk" target="_blank" class="card-link">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Project 3 -->
+                <div class="card project-card">
+                    <div class="card-icon purple-icon">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3 class="card-title">LMS</h3>
+                    <p class="card-description">
+                        Developed a Learning Management System (LMS) for an academy. Implemented features for course
+                        management, student enrollment, and grade tracking.
+                    </p>
+                    <a href="https://www.thegrammarjunction.com" target="_blank" class="card-link">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="card project-card">
+                    <div class="card-icon green-icon">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                    </div>
+                    <h3 class="card-title">AuthenWrite AI</h3>
+                    <p class="card-description">
+                        An AI writing tool that mimics human tone. Trains on user style to generate undetectable
+                        content.
+                    </p>
+                    <span class="card-tag">AI / NLP (In Progress)</span>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="card project-card">
+                    <div class="card-icon orange-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3 class="card-title">MLSA Branding</h3>
+                    <p class="card-description">
+                        Led visual branding for MLSA, designing logos, certificates, and social media assets for events.
+                    </p>
+                    <span class="card-tag">Design</span>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="certifications" class="section">
-  <h2>Certifications</h2>
-  <div class="cert-grid">
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & History</h2>
+                <p class="section-subtitle">My professional journey and volunteer leadership.</p>
+            </div>
 
-    <div class="cert-card">
-      <img src="hackerRank.png" alt="Logic Building Certificate" class="cert-img">
-      <p>Logic Building – HackerRank</p>
-    </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Head of Design Team</h3>
+                        <span class="company">Digital Empowerment Network</span>
+                        <p>Progressed from junior designer to lead the full design team. Creating visual content for
+                            campaigns across platforms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Graphic Designer</h3>
+                        <span class="company">Microsoft Learn Student Ambassadors</span>
+                        <p>Designed digital assets, event branding, and social media content for student-led tech events
+                            like ZABCon and ZABTechFusion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="cert-card">
-      <img src="MLSA.jpeg" alt="Graphic Designer Certificate" class="cert-img">
-      <p>Graphic Design – MLSA</p>
-    </div>
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <p class="section-subtitle">Recognition for my skills and contributions.</p>
+            </div>
 
-    <div class="cert-card">
-      <img src="DEN.png" alt="Python Programming Certificate" class="cert-img">
-      <p>DEN – Python Programming</p>
-    </div>
+            <div class="certs-grid">
+                <div class="cert-item">
+                    <img src="Asset/hackerRank.png" alt="Logic Building Certificate" class="cert-img">
+                    <div class="cert-details">
+                        <h3>Logic Building</h3>
+                        <span>HackerRank</span>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <img src="Asset/MLSA.jpeg" alt="Graphic Design Certificate" class="cert-img">
+                    <div class="cert-details">
+                        <h3>Graphic Design</h3>
+                        <span>MLSA</span>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <img src="Asset/DEN.png" alt="Python Programming Certificate" class="cert-img">
+                    <div class="cert-details">
+                        <h3>Python Programming</h3>
+                        <span>DEN</span>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <img src="Asset/GDSC.jpeg" alt="Certificate of Appreciation" class="cert-img">
+                    <div class="cert-details">
+                        <h3>Certificate of Appreciation</h3>
+                        <span>GDSC</span>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <img src="Asset/UdemyPython.jpg" alt="Python for Machine Learning Certificate" class="cert-img">
+                    <div class="cert-details">
+                        <h3>Python for Machine Learning</h3>
+                        <span>Udemy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="cert-card">
-      <img src="GDSC.jpeg" alt="Certificate of Participation" class="cert-img">
-      <p>Certificate of Appreciation – GDSC</p>
-    </div>
+    <!-- CTA/Contact Section -->
+    <section id="contact" class="section cta-section">
+        <div class="container cta-container">
+            <h2>Ready to build something amazing?</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            </p>
+            <div class="cta-buttons">
+                <a href="mailto:syedsaadahmed726@gmail.com" class="btn btn-primary">Start a conversation</a>
+            </div>
+            <div class="social-links">
+                <a href="mailto:syedsaadahmed726@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
 
-    <div class="cert-card">
-      <img src="UdemyPython.jpg" alt="Python for Machine Learning" class="cert-img">
-      <p>Python for Machine Learning – Udemy</p>
-    </div>
-  </div>
-</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="footer-logo">Syed Saad Ahmed.</span>
+                <p>&copy; 2024 Syed Saad Ahmed. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
 
-<footer class="footer">
-  <div class="footer-content">
-    <p>© 2025 Syed Saad Ahmed. All rights reserved.</p>
-    <a href="cv.pdf" class="cv-btn" download>Download CV</a>
-  </div>
-</footer>
-
-
+    <script src="script.js"></script>
 </body>
+
 </html>
