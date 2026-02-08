@@ -903,3 +903,27 @@ img {
         text-align: center;
     }
 }
+
+@media (max-width: 480px) {
+    .nav-container {
+        padding: 0 1rem;
+    }
+    
+    .logo {
+        font-size: 1.1rem;
+    }
+    
+    /* Target the specific Get in touch button in navbar */
+    .navbar .btn-primary {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+        white-space: nowrap;
+        margin-left: auto; /* Push to right if needed, but flex space-between handles it */
+        margin-right: 10px; /* Add some space before the hamburger menu */
+    }
+    
+    .mobile-toggle {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+}
